@@ -1,0 +1,17 @@
+git command
+t push -uLOCAL REPO TO CLOUD REPO
+
+git status
+git init
+git add file name/-
+git commit -m "msg"
+git remote add origin url
+git branch -M main
+git push -u origin main
+
+CLOUD TO LOCAL REPO
+git clone URL
+
+Other git commands 
+git log
+git checkout
