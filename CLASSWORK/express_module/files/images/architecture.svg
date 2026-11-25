@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="16" fill="url(#bg)" />
+  <rect x="40" y="40" width="720" height="420" rx="12" fill="#1e293b" stroke="#334155" stroke-width="2" />
+  <text x="400" y="90" text-anchor="middle" fill="#f8fafc" font-size="24" font-weight="bold" font-family="system-ui, sans-serif">MERN File Search Architecture</text>
+  
+  <!-- Frontend Block -->
+  <rect x="70" y="140" width="180" height="240" rx="8" fill="#0f172a" stroke="#6366f1" stroke-width="2" />
+  <text x="160" y="175" text-anchor="middle" fill="#818cf8" font-size="16" font-weight="600" font-family="system-ui, sans-serif">React 19 Frontend</text>
+  <text x="90" y="215" fill="#94a3b8" font-size="13" font-family="system-ui, sans-serif">• Search Bar &amp; Debounce</text>
+  <text x="90" y="245" fill="#94a3b8" font-size="13" font-family="system-ui, sans-serif">• Keyword Highlighting</text>
+  <text x="90" y="275" fill="#94a3b8" font-size="13" font-family="system-ui, sans-serif">• Category Filter</text>
+  <text x="90" y="305" fill="#94a3b8" font-size="13" font-family="system-ui, sans-serif">• File Preview Modal</text>
+  <text x="90" y="335" fill="#94a3b8" font-size="13" font-family="system-ui, sans-serif">• Grid &amp; List Views</text>
+
+  <!-- Flow Arrow -->
+  <line x1="260" y1="260" x2="310" y2="260" stroke="#a855f7" stroke-width="3" stroke-dasharray="6,4" />
+  <polygon points="310,255 320,260 310,265" fill="#a855f7" />
+  
+  <!-- Backend Block -->
+  <rect x="330" y="140" width="180" height="240" rx="8" fill="#0f172a" stroke="#a855f7" stroke-width="2" />
+  <text x="420" y="175" text-anchor="middle" fill="#c084fc" font-size="16" font-weight="600" font-family="system-ui, sans-serif">Express 5 API</text>
+  <text x="350" y="215" fill="#94a3b8" font-size="13" font-family="system-ui, sans-serif">• /api/search</text>
+  <text x="350" y="245" fill="#94a3b8" font-size="13" font-family="system-ui, sans-serif">• /api/files/download</text>
+  <text x="350" y="275" fill="#94a3b8" font-size="13" font-family="system-ui, sans-serif">• /api/files/preview</text>
+  <text x="350" y="305" fill="#94a3b8" font-size="13" font-family="system-ui, sans-serif">• /api/stats</text>
+  <text x="350" y="335" fill="#94a3b8" font-size="13" font-family="system-ui, sans-serif">• Path Traversal Guard</text>
+
+  <!-- Flow Arrow -->
+  <line x1="520" y1="260" x2="570" y2="260" stroke="#06b6d4" stroke-width="3" stroke-dasharray="6,4" />
+  <polygon points="570,255 580,260 570,265" fill="#06b6d4" />
+
+  <!-- Storage Block -->
+  <rect x="590" y="140" width="150" height="240" rx="8" fill="#0f172a" stroke="#06b6d4" stroke-width="2" />
+  <text x="665" y="175" text-anchor="middle" fill="#38bdf8" font-size="16" font-weight="600" font-family="system-ui, sans-serif">Files Store</text>
+  <text x="610" y="215" fill="#94a3b8" font-size="13" font-family="system-ui, sans-serif">• ../files/</text>
+  <text x="610" y="245" fill="#94a3b8" font-size="13" font-family="system-ui, sans-serif">• documents/</text>
+  <text x="610" y="275" fill="#94a3b8" font-size="13" font-family="system-ui, sans-serif">• images/</text>
+  <text x="610" y="305" fill="#94a3b8" font-size="13" font-family="system-ui, sans-serif">• assignments/</text>
+  <text x="610" y="335" fill="#94a3b8" font-size="13" font-family="system-ui, sans-serif">• certificates/</text>
+</svg>

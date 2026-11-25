@@ -1,0 +1,11 @@
+{
+  "name": "frontend-root",
+  "version": "1.0.0",
+  "description": "Frontend root proxying to module",
+  "scripts": {
+    "dev": "npm --prefix module run dev",
+    "start": "npm --prefix module run dev",
+    "build": "npm --prefix module run build",
+    "preview": "npm --prefix module run preview"
+  }
+}

@@ -1,0 +1,4 @@
+Full Stack Development Notes:
+- Frontend: React 19, Vite, Modern CSS
+- Backend: Express 5, Node.js, File System API
+- Search Features: Case-insensitive, keyword matching, extension filtering, nested folder recursion.

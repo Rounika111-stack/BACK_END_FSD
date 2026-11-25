@@ -1,0 +1,50 @@
+:root {
+  /* Soft Pink & White Minimal Palette */
+  --bg-color: #FFFFFF;
+  --primary-pink: #E88BAA;
+  --primary-pink-hover: #DE7A9B;
+  --light-pink: #FCEEF3;
+  --light-pink-subtle: #FFF7FA;
+  --dark-text: #252525;
+  --secondary-text: #777777;
+  --border-color: #EEEEEE;
+  --border-focus: #E88BAA;
+
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--bg-color);
+  color: var(--dark-text);
+  line-height: 1.5;
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+input {
+  font-family: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
